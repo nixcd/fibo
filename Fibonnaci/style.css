@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #736e8a;
+  --secondary-color: #fac88f;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+a, li {
+  text-decoration: none;
+  color: inherit;
+}
+
+div#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div#calculations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  border: none;
+  border-radius: 10px;
+}
+
+div#calculations button#result {
+  border: none;
+  border-radius: 10px;
+}
+
+div#calculations button#result:hover {
+  cursor: pointer;
+}
